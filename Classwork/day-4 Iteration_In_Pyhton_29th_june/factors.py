@@ -18,3 +18,4 @@ else:
     for x in range(1,number + 1):
         if(num % x == 0):
             print(x, ",", -x ,end=',')
+            

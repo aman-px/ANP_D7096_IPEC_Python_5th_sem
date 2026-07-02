@@ -1,3 +1,4 @@
+#
 correct_pin = 4589
 
 while True:

@@ -8,7 +8,7 @@ units = []
 
 # Step 3: Accept units for each house
 for i in range(n):
-    u = int(input(f"Enter units consumed by house {i+1}: "))
+    u = int(input("Enter units consumed by house {i+1}: "))
     units.append(u)
 
 # Step 4: Calculate total units
