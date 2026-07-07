@@ -9,5 +9,4 @@ venv/
 .env
 .DS_Store
 *.zip
-labwork/07-jul-labwork/
  .gitignore
