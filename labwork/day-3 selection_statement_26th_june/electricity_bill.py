@@ -12,4 +12,5 @@ if(total_bill >= 5000):
     print("Final Bill Amount is : ",total_bill-(total_bill*0.1))
 else:
     print("No Discount Applied ")
+    print("kareighdklgjdkgd")
     print("FInal bill amount is : ",total_bill)
