@@ -1,6 +1,9 @@
 def search_student(student_dict, roll_no):
-    """Search for a student by roll number in the dictionary."""
-    return student_dict.get(str(roll_no), "Student Not Found")
+    if roll_no in student_dict:
+        return student_dict[roll_no]
+    else:
+        return "Student not found"
+
 
 
 # Main program
