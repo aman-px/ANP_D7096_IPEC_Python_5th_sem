@@ -1,10 +1,14 @@
+# Function to count vowels
 def count_vowels(text):
-    """Count vowels in a string irrespective of case."""
-    vowels = "aeiouAEIOU"
-    return sum(1 for char in text if char in vowels)
+    count = 0
+    # Check each character
+    for ch in text:
+        # Convert to lowercase and check if it is a vowel
+        if ch.lower() in "aeiou":
+            count += 1
+    return count
 
-
-# Main program
+# Main Program
 sentence = input("Enter a sentence: ")
-result = count_vowels(sentence)
-print("Total Vowels:", result)
+total = count_vowels(sentence)
+print("Total Vowels:", total)
