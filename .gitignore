@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+.venv/
+venv/
+.env
+.DS_Store
+*.zip
+ .gitignore
